@@ -28,7 +28,7 @@
 .nav-item:last-child {
   border-bottom: none; /* Remove border-bottom for the last .nav-item */
 }
-
+/* 
 .nav-bar .indicator {
   position: absolute;
   left: 260px;
@@ -63,11 +63,6 @@
   transform: rotate(90deg);
   box-shadow: -1px -10px 0 0 var(--white);
 }
-
-.active {
-  color: var(--white);
-}
-
 .nav-item:nth-child(1).active ~ .indicator {
   transform: translateY(calc(50px * 0));
 }
@@ -79,6 +74,86 @@
 }
 .nav-item:nth-child(4).active ~ .indicator {
   transform: translateY(calc(50px * 3));
+} */
+
+/* Nav Bar Indicators - Since font is causing shift in styles*/
+
+.nav-bar .indicator-1 {
+  position: relative;
+  left: 135px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.nav-bar .indicator-2 {
+  position: relative;
+  left: 145px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.nav-bar .indicator-3 {
+  position: relative;
+  left: 130px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.nav-bar .indicator-4 {
+  position: relative;
+  left: 145px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.indicator-1::before,
+.indicator-2::before,
+.indicator-3::before,
+.indicator-4::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-top-right-radius: 20px;
+  transform: rotate(90deg);
+  box-shadow: 1px -10px 0 0 var(--white);
+}
+
+.indicator-1::after,
+.indicator-2::after,
+.indicator-3::after,
+.indicator-4::after {
+  content: "";
+  position: absolute;
+  top: 26px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 20px;
+  transform: rotate(90deg);
+  box-shadow: -1px -10px 0 0 var(--white);
+}
+
+.active {
+  color: var(--white);
+}
+
+.disp-none {
+  display: none;
 }
 
 .angle-icon {

@@ -26,6 +26,13 @@ const NavigationBar: FC = () => {
         onClick={() => handleClick(NavLinks.Profile)}
       >
         Profile
+        <span
+          className={`${
+            activeNavItem === NavLinks.Profile ? "indicator-1" : "disp-none"
+          }`}
+        >
+          <FontAwesomeIcon className="angle-icon" icon={faAngleRight} />
+        </span>
       </div>
       <div
         className={`nav-item ${
@@ -34,6 +41,13 @@ const NavigationBar: FC = () => {
         onClick={() => handleClick(NavLinks.Posts)}
       >
         Posts
+        <span
+          className={`${
+            activeNavItem === NavLinks.Posts ? "indicator-2" : "disp-none"
+          }`}
+        >
+          <FontAwesomeIcon className="angle-icon" icon={faAngleRight} />
+        </span>
       </div>
       <div
         className={`nav-item ${
@@ -42,6 +56,13 @@ const NavigationBar: FC = () => {
         onClick={() => handleClick(NavLinks.Gallery)}
       >
         Gallery
+        <span
+          className={`${
+            activeNavItem === NavLinks.Gallery ? "indicator-3" : "disp-none"
+          }`}
+        >
+          <FontAwesomeIcon className="angle-icon" icon={faAngleRight} />
+        </span>
       </div>
       <div
         className={`nav-item ${
@@ -50,10 +71,18 @@ const NavigationBar: FC = () => {
         onClick={() => handleClick(NavLinks.ToDo)}
       >
         ToDo
+        <span
+          className={`${
+            activeNavItem === NavLinks.ToDo ? "indicator-4" : "disp-none"
+          }`}
+        >
+          <FontAwesomeIcon className="angle-icon" icon={faAngleRight} />
+        </span>
       </div>
-      <div className="indicator">
+
+      {/* <div className="indicator">
         <FontAwesomeIcon className="angle-icon" icon={faAngleRight} />
-      </div>
+      </div> */}
     </div>
   );
 };
