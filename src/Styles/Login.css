@@ -1,0 +1,53 @@
+@import "variables.css";
+
+/* main {
+  background-color: red;
+  background-image: url("../../public/wavebg.svg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+} */
+
+.main {
+  background-image: url("../../public/wavebg.svg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  display: flex;
+  justify-content: center;
+}
+
+.accounts-list {
+  margin: 65px auto;
+  width: 534px;
+  background-color: var(--white);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05), 0 8px 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+.account-list-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 96px;
+  background-color: var(--background-gray);
+  color: var(--gray);
+  font-weight: bold;
+}
+
+.account-list-body {
+  margin: 10px;
+  max-height: 404px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 234px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--scroll-gray);
+  background-clip: content-box;
+}

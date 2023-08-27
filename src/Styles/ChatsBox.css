@@ -1,0 +1,52 @@
+@import "variables.css";
+
+.chats-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 9999;
+  background-color: var(--white);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid var(--chat-blue);
+  bottom: -133px;
+  right: 40px;
+  width: 230px;
+}
+
+.chats-box-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  height: 44px;
+  border-radius: inherit;
+  background-color: var(--chat-blue);
+  color: var(--white);
+  justify-content: space-between;
+}
+
+.chats-box-body {
+  height: 318px;
+  overflow: auto;
+  transition: max-height 0.3s;
+  max-height: 318px;
+  margin: 3px;
+}
+
+.message-icon {
+  margin-right: 10px;
+  transform: scaleX(-1);
+}
+
+.chats-box-body .user-list-card {
+  min-height: 40px;
+  border-bottom: none;
+  margin: 0 15px;
+}
+
+.chats-box-body .user-list-card .name {
+  font-size: 13px;
+  border-bottom: none;
+  width: 140px;
+}

@@ -1,0 +1,102 @@
+@import "variables.css";
+
+/* Common */
+
+.profile-item {
+  display: flex;
+  margin: 15px 0;
+}
+
+.label {
+  text-align: right;
+  font-weight: 500;
+  color: var(--text-color);
+  width: 120px;
+}
+
+.label::after {
+  content: "";
+  margin-inline: 10px;
+}
+
+.label::after {
+  content: ":";
+  margin-right: 10px;
+}
+
+.data {
+  flex: 1;
+  max-width: calc(100% - 120px); /* Adjust based on label width */
+  overflow: hidden;
+  white-space: normal;
+}
+
+.light {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Specific */
+
+.profile {
+  margin-top: 36px;
+  display: flex;
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px; /* 350px */
+  padding-right: 50px;
+  border-right: 1px solid var(--border-gray);
+}
+
+.user-details {
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.user-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 46px;
+}
+
+.map-img {
+  display: block;
+  margin: 0 0 20px auto;
+  width: 540px;
+  height: 304px;
+  border-radius: 20px;
+}
+
+.map-info {
+  width: calc(100vw - 806px);
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.map-info .light {
+  margin-right: 5px;
+}
+
+.map-info .lat-label {
+  margin-right: 15px;
+}

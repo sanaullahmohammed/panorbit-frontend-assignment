@@ -1,0 +1,22 @@
+@import "variables.css";
+
+.header {
+  display: flex;
+  height: 70px;
+  width: calc(100vw - 385px);
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.header-name {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.header-user .user-list-card {
+  border-bottom: none;
+  margin: 0;
+}

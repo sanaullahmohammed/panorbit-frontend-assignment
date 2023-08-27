@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap");
+
+:root {
+  --white: #ffffff;
+  --text-color: #9a9a9a;
+  --gray: #545454;
+  --dark-gray: #4a4a4a;
+  --border-gray: #e2e2e2;
+  --scroll-gray: #d8d8d8;
+  --background-gray: #f6f6f6;
+  --sign-out-btn: #d55151;
+  --coming-soon-gray: #eeeeee;
+  --chat-blue: #2c65c8;
+}
+
+/* Fonts */
+:root {
+  --main-font: "Open Sans", sans-serif;
+}

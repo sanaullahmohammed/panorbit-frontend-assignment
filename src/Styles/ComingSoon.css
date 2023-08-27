@@ -1,0 +1,11 @@
+@import "variables.css";
+
+.coming-soon-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 66px;
+  font-weight: bold;
+  color: var(--coming-soon-gray);
+  margin-top: 200px;
+}

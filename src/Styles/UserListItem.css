@@ -1,0 +1,39 @@
+@import "variables.css";
+
+.user-list-card {
+  min-height: 50px;
+  border-bottom: 1px solid var(--border-gray);
+  margin: 0 36px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.name {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 13px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}

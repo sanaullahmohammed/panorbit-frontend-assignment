@@ -1,0 +1,14 @@
+.dashboard-container {
+  padding: 40px;
+}
+
+.dashboard-main {
+  display: flex;
+  min-width: calc(100vw - 90px);
+  min-height: 100vh;
+  height: 100%;
+}
+
+.screen-section {
+  margin-left: 48px;
+}

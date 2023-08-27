@@ -1,0 +1,70 @@
+@import "variables.css";
+
+.change-profile-card {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  background-color: var(--white);
+  top: 90px;
+  right: 46px;
+  width: 283px;
+  height: 372px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 0px 40px 0px;
+}
+
+.card-user-img {
+  display: block;
+  margin: 15px auto 15px auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.card-name {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.card-email {
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.other-accounts-list {
+  overflow-y: hidden;
+  /* overflow-y: scroll; */
+  margin-bottom: 12px;
+}
+
+.other-accounts-list .user-list-card {
+  justify-content: center;
+}
+
+.other-accounts-list .user-list-card:first-child {
+  border-top: 1px solid var(--border-gray);
+  justify-content: center;
+}
+
+.other-accounts-list .user-list-card .name {
+  font-size: 12px;
+}
+
+.sign-out-btn {
+  text-align: center;
+  height: 34px;
+  width: 96px;
+  border: none;
+  border-radius: 50px;
+  color: var(--white);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--sign-out-btn);
+}
