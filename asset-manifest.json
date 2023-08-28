@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/panorbit-frontend-assignment/static/css/main.1b7e7b14.css",
+    "main.css": "/panorbit-frontend-assignment/static/css/main.883da573.css",
     "main.js": "/panorbit-frontend-assignment/static/js/main.c36cf88e.js",
     "static/js/787.d7f1eb3b.chunk.js": "/panorbit-frontend-assignment/static/js/787.d7f1eb3b.chunk.js",
     "static/media/google-map.jpg": "/panorbit-frontend-assignment/static/media/google-map.e9b86bccca7a660457cb.jpg",
     "static/media/wave-gradient-bg.svg": "/panorbit-frontend-assignment/static/media/wave-gradient-bg.e702f5d965bd91080db4.svg",
     "index.html": "/panorbit-frontend-assignment/index.html",
-    "main.1b7e7b14.css.map": "/panorbit-frontend-assignment/static/css/main.1b7e7b14.css.map",
+    "main.883da573.css.map": "/panorbit-frontend-assignment/static/css/main.883da573.css.map",
     "main.c36cf88e.js.map": "/panorbit-frontend-assignment/static/js/main.c36cf88e.js.map",
     "787.d7f1eb3b.chunk.js.map": "/panorbit-frontend-assignment/static/js/787.d7f1eb3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b7e7b14.css",
+    "static/css/main.883da573.css",
     "static/js/main.c36cf88e.js"
   ]
 }
