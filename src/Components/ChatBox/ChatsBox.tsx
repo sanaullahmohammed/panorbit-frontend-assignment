@@ -12,7 +12,7 @@ const ChatsBox: FC = () => {
   const [appState, dispatch] = useContext(AppContext);
 
   function expandToggle() {
-    setExpanded(!expanded);
+    setExpanded((prevState) => !prevState);
   }
 
   function handleClick(user: IUser) {
