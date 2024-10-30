@@ -26,7 +26,7 @@ Company : https://panorbit.in/
 
 Application must be launched via URL which will display a landing page
 
-### Landing Page
+## Landing Page
 
 1. Landing page should consist a set of users account list in a card which is scrollable on exceeding the length of the list
 2. On Selecting an account, user must be able to go to profile home page
@@ -34,7 +34,7 @@ Application must be launched via URL which will display a landing page
 ![Landing Page](https://github.com/user-attachments/assets/91c26a5c-fff5-4e8a-b484-fe5e8db7e13d)
 
 
-### Home Page / Profile Details Screen
+## Home Page / Profile Details Screen
 
 Profile home page must consist of following elements :
 1. Profile Details Screen
@@ -47,7 +47,7 @@ You will get these details in the USERS API endpoint.
 
 ![Profile page](https://github.com/user-attachments/assets/c59bdb56-db2a-4701-8ab3-c3eeeca76275)
 
-### Change / Add Profile
+## Change / Add Profile
 
 Following details will be displayed when user click on profile account in right top corner of the page (see design):
 1. Profile Picture of logged in user
@@ -57,13 +57,13 @@ Following details will be displayed when user click on profile account in right 
 
 ![User Profile Page](https://github.com/user-attachments/assets/473c9b49-e869-4148-a895-6ae8b2bf770b)
 
-### Chat 
+## Chat 
 
 Chat box as shown in the design
 
 ![Chats Page](https://github.com/user-attachments/assets/ec0b88f0-215b-4bba-afbc-a9faa55dd83e)
 
-### Chat Details Page
+## Chat Details Page
 
 (attention to detail will show below)
 1. Clicking on the chat opens a new box next to it
@@ -73,19 +73,19 @@ Chat box as shown in the design
 
 ![Chats Details Page](https://github.com/user-attachments/assets/f297680a-a190-4a3e-b940-bf69f7eeae1f)
 
-### Post Details Screen
+## Post Details Screen
 
 Display a coming soon page
 
 ![Posts Page](https://github.com/user-attachments/assets/4c2eaf9c-862f-401c-8145-38eab503d2c6)
 
-### Gallery Screen
+## Gallery Screen
 
 Display a coming soon page
 
 ![Gallery Page](https://github.com/user-attachments/assets/4c2eaf9c-862f-401c-8145-38eab503d2c6)
 
-### ToDo Screen
+## ToDo Screen
 
 Display a coming soon page
 
