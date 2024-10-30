@@ -1,4 +1,8 @@
-# Simple Social Media App - Frontend
+# Profile Hub UI
+
+#### Description
+
+A pixel-perfect frontend application showcasing user profiles with seamless navigation between profile details, posts, gallery, and to-do screens. This project features a responsive landing page with a scrollable list of user accounts, intuitive profile management, and a built-in chat system for enhanced user interactions. Built for a clean and engaging user experience.
 
 <!-- 
 This was a Hiring Assignment from Panorbit company
